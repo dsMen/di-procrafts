@@ -74,14 +74,9 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-wrap items-center justify-between gap-3 pt-6 border-t border-white/[0.07]">
           <span className="text-xs text-slate-600">
-            © 2025 DI ProCrafts · di-procrafts.com
+            © 2026 DI ProCrafts · di-procrafts.com
           </span>
-          <div className="flex items-center gap-2 text-xs text-slate-600">
-            Payments by{" "}
-            <span className="bg-purple-500/10 border border-purple-500/20 text-purple-400 font-semibold px-2.5 py-0.5 rounded-md text-[11px]">
-              Dodo Payments
-            </span>
-          </div>
+
         </div>
 
       </div>

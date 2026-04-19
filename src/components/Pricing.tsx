@@ -133,10 +133,7 @@ export default function Pricing() {
             </a>{" "}
             — we&apos;ll give you a tailored quote.
           </p>
-          <p className="text-slate-600 text-xs mt-2">
-            💳 Payments processed securely via{" "}
-            <strong className="text-slate-500">Dodo Payments</strong>
-          </p>
+
         </div>
 
       </div>
