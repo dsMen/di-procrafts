@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Black circle background -->
+  <circle cx="16" cy="16" r="16" fill="#08080f"/>
+  <!-- Outer glow ring -->
+  <circle cx="16" cy="16" r="9" fill="#a855f7" opacity="0.15"/>
+  <!-- Mid glow -->
+  <circle cx="16" cy="16" r="7" fill="#a855f7" opacity="0.25"/>
+  <!-- Neon purple core dot -->
+  <circle cx="16" cy="16" r="5" fill="#a855f7"/>
+  <!-- Inner highlight -->
+  <circle cx="14.5" cy="14.5" r="1.5" fill="#d8b4fe" opacity="0.6"/>
+</svg>
