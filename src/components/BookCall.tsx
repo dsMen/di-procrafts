@@ -1,12 +1,13 @@
 "use client";
 
 import { useEffect } from "react";
+import Icon from "@/components/Icon";
 
 const perks = [
-  { icon: "📅", text: "Free 30-minute discovery call" },
-  { icon: "💬", text: "We review your site live on the call" },
-  { icon: "📋", text: "You get a clear scope & fixed price" },
-  { icon: "🔒", text: "Zero pressure, zero commitment" },
+  { icon: "calendar_month", text: "Free 30-minute discovery call" },
+  { icon: "screen_share",   text: "We review your site live on the call" },
+  { icon: "assignment",     text: "You get a clear scope & fixed price" },
+  { icon: "lock",           text: "Zero pressure, zero commitment" },
 ];
 
 export default function BookCall() {
@@ -50,8 +51,8 @@ export default function BookCall() {
             <ul className="flex flex-col gap-4">
               {perks.map((p) => (
                 <li key={p.text} className="flex items-center gap-3.5 text-sm">
-                  <div className="w-9 h-9 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-base shrink-0">
-                    {p.icon}
+                  <div className="w-9 h-9 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center shrink-0">
+                    <Icon name={p.icon} className="text-purple-400" size="sm" />
                   </div>
                   <span className="text-slate-300">{p.text}</span>
                 </li>

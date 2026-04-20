@@ -67,6 +67,14 @@ export default function Footer() {
                   hello@di-procrafts.com
                 </a>
               </li>
+              <li>
+                <a
+                  href="mailto:support@di-procrafts.com"
+                  className="text-sm text-slate-400 hover:text-slate-100 transition-colors"
+                >
+                  support@di-procrafts.com
+                </a>
+              </li>
             </ul>
           </div>
         </div>

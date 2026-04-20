@@ -1,6 +1,8 @@
+import Icon from "@/components/Icon";
+
 const plans = [
   {
-    icon: "🖥️",
+    icon: "code",
     tech: "HTML / CSS / JS",
     sub: "Static or hand-coded websites",
     price: "€100",
@@ -15,7 +17,7 @@ const plans = [
     ],
   },
   {
-    icon: "⚙️",
+    icon: "settings",
     tech: "WordPress",
     sub: "WordPress-powered websites",
     price: "€200",
@@ -31,7 +33,7 @@ const plans = [
     ],
   },
   {
-    icon: "🗂️",
+    icon: "folder_open",
     tech: "Open-Source CMS",
     sub: "Joomla, Drupal, PrestaShop & others",
     price: "€150",
@@ -85,7 +87,9 @@ export default function Pricing() {
               )}
 
               <div className="flex items-center gap-3 mb-1">
-                <span className="text-2xl">{plan.icon}</span>
+                <div className="w-9 h-9 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center shrink-0">
+                  <Icon name={plan.icon} className="text-purple-400" size="sm" />
+                </div>
                 <span className="font-[family-name:var(--font-space)] font-bold text-base">{plan.tech}</span>
               </div>
               <p className="text-xs text-slate-500 mb-7">{plan.sub}</p>

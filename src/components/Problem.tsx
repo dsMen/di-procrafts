@@ -1,16 +1,18 @@
+import Icon from "@/components/Icon";
+
 const issues = [
   {
-    icon: "📉",
+    icon: "trending_down",
     title: "Losing visitors instantly",
     desc: "53% of users leave if a site looks outdated. First impressions happen in milliseconds.",
   },
   {
-    icon: "📱",
+    icon: "smartphone",
     title: "Not mobile-friendly",
     desc: "Most old websites break on phones. Over 60% of web traffic is mobile today.",
   },
   {
-    icon: "💰",
+    icon: "money_off",
     title: "A full rebuild costs a fortune",
     desc: "You don't need to rebuild from scratch. We modernize what you already have — for a fraction of the cost.",
   },
@@ -65,7 +67,9 @@ export default function Problem() {
                   key={item.title}
                   className="flex items-start gap-4 p-5 bg-[#0f0f1a] border border-white/[0.07] rounded-xl hover:border-purple-500/30 hover:bg-[#16162a] transition-all duration-200"
                 >
-                  <span className="text-2xl mt-0.5 shrink-0">{item.icon}</span>
+                  <div className="shrink-0 w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center mt-0.5">
+                    <Icon name={item.icon} className="text-purple-400" size="sm" />
+                  </div>
                   <div>
                     <h4 className="font-[family-name:var(--font-space)] text-sm font-semibold mb-1">{item.title}</h4>
                     <p className="text-xs text-slate-400 leading-relaxed">{item.desc}</p>
