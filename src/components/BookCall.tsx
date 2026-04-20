@@ -63,7 +63,7 @@ export default function BookCall() {
           <div className="reveal [transition-delay:150ms] rounded-2xl overflow-hidden border border-white/[0.07] bg-[#0f0f1a]">
             <div
               className="calendly-inline-widget"
-              data-url="https://calendly.com/deesamy?hide_event_type_details=1&hide_gdpr_banner=1&background_color=0f0f1a&text_color=f1f5f9&primary_color=a855f7"
+              data-url="https://calendly.com/di-procrafts-support/30min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=0f0f1a&text_color=f1f5f9&primary_color=a855f7"
               style={{ minWidth: "320px", height: "680px" }}
             />
           </div>

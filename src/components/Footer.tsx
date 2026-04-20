@@ -51,7 +51,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-2.5">
               <li>
                 <a
-                  href="https://calendly.com/deesamy"
+                  href="https://calendly.com/di-procrafts-support/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-slate-400 hover:text-slate-100 transition-colors"
