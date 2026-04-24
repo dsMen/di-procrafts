@@ -45,7 +45,7 @@ export default function BookCall() {
             <p className="text-slate-400 text-sm leading-relaxed mb-8 max-w-sm">
               Pick a time that works for you. In 30 minutes, we&apos;ll review your
               current site, discuss what&apos;s possible, and give you a clear fixed
-              quote — no obligations.
+              quote, no obligations.
             </p>
 
             <ul className="flex flex-col gap-4">

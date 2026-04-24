@@ -4,13 +4,13 @@ const services = [
   {
     icon: "palette",
     title: "Visual Reskin",
-    desc: "Complete visual overhaul — new colors, typography, spacing, and layout aligned with modern design standards.",
+    desc: "Complete visual overhaul: new colors, typography, spacing, and layout aligned with modern design standards.",
     tags: ["New UI", "Typography", "Color system"],
   },
   {
     icon: "smartphone",
     title: "Mobile-First Responsive",
-    desc: "Your renovated site will look and work perfectly on any screen size — phone, tablet, or desktop.",
+    desc: "Your renovated site will look and work perfectly on any screen size: phone, tablet, or desktop.",
     tags: ["Responsive", "Mobile-first", "All devices"],
   },
   {
@@ -22,7 +22,7 @@ const services = [
   {
     icon: "build",
     title: "CMS-Aware Renovations",
-    desc: "We work within your existing CMS — WordPress, Joomla, Drupal, or any open-source platform. No migration needed.",
+    desc: "We work within your existing CMS: WordPress, Joomla, Drupal, or any open-source platform. No migration needed.",
     tags: ["WordPress", "Joomla", "Drupal", "+more"],
   },
   {
@@ -53,7 +53,7 @@ export default function Services() {
             One service. Any platform.
           </h2>
           <p className="text-slate-400 mt-4 max-w-md mx-auto text-sm leading-relaxed">
-            We specialize in a single thing: making old websites look stunning —
+            We specialize in a single thing: making old websites look stunning,
             regardless of the tech behind them.
           </p>
         </div>

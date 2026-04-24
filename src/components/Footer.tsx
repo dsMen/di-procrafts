@@ -27,7 +27,7 @@ export default function Footer() {
           {/* Nav */}
           <div>
             <h4 className="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-4">
-              Navigate
+              Go To
             </h4>
             <ul className="flex flex-col gap-2.5">
               {navLinks.map((l) => (
@@ -82,7 +82,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-wrap items-center justify-between gap-3 pt-6 border-t border-white/[0.07]">
           <span className="text-xs text-slate-600">
-            © 2026 DI ProCrafts · di-procrafts.com
+            © 2026 Digital ProCrafts · di-procrafts.com
           </span>
 
         </div>

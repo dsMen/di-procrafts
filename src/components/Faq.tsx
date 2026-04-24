@@ -5,7 +5,7 @@ import { useState } from "react";
 const faqs = [
   {
     q: "Do you rebuild the site from scratch?",
-    a: "No — that's exactly the point. We renovate and reskin your existing website. Your content, domain, and hosting stay the same. We only modernize the look, feel, and front-end performance.",
+    a: "Nope, that's exactly the point. We renovate and reskin your existing website. Your content, domain, and hosting stay the same. We only modernize the look, feel, and front-end performance.",
   },
   {
     q: "Will I lose any content or data?",
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "What if I'm not happy with the result?",
-    a: "We include revision rounds in every project so we get it right. We don't consider a project done until you're satisfied — the final 50% is only paid once you approve the result.",
+    a: "We include revision rounds in every project so we get it right. We don't consider a project done until you're satisfied. The final 50% is only paid once you approve the result.",
   },
 ];
 

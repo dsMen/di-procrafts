@@ -35,7 +35,7 @@ export default function HowItWorks() {
             Simple. Transparent. Efficient.
           </h2>
           <p className="text-slate-400 mt-4 max-w-md mx-auto text-sm leading-relaxed">
-            From first contact to a live, modern website — here's exactly how it works.
+            From first contact to a live, modern website. Here's exactly how it works.
           </p>
         </div>
 

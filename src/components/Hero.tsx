@@ -25,7 +25,7 @@ export default function Hero() {
 
         {/* Sub */}
         <p className="text-slate-400 text-lg md:text-xl leading-relaxed max-w-xl mb-10">
-          We take your outdated website — WordPress, plain HTML, any CMS — and
+          We take your outdated website (WordPress, plain HTML, any CMS) and
           transform it into a sleek, fast, modern experience.{" "}
           <strong className="text-slate-200 font-semibold">Fixed fees. No surprises.</strong>
         </p>

@@ -14,7 +14,7 @@ const issues = [
   {
     icon: "money_off",
     title: "A full rebuild costs a fortune",
-    desc: "You don't need to rebuild from scratch. We modernize what you already have — for a fraction of the cost.",
+    desc: "You don't need to rebuild from scratch. We modernize what you already have, for a fraction of the cost.",
   },
 ];
 

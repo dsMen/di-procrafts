@@ -119,7 +119,7 @@ export default function Pricing() {
                     : "border border-white/10 text-slate-300 hover:border-purple-500/40 hover:text-purple-400 hover:bg-purple-500/5"
                 }`}
               >
-                Get Started →
+                Get Started
               </a>
             </div>
           ))}
@@ -132,7 +132,7 @@ export default function Pricing() {
             <a href="#book" className="text-purple-400 font-semibold hover:text-purple-300 transition-colors">
               Let&apos;s talk →
             </a>{" "}
-            — we&apos;ll give you a tailored quote.
+            and we&apos;ll give you a tailored quote.
           </p>
 
         </div>
