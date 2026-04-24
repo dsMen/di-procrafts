@@ -13,7 +13,6 @@ const plans = [
       "Mobile-responsive redesign",
       "Modern typography & color system",
       "Performance optimization",
-      "Post-launch support (7 days)",
     ],
   },
   {
@@ -29,7 +28,6 @@ const plans = [
       "Plugin & performance audit",
       "Modern UI components",
       "SEO basics setup",
-      "Post-launch support (14 days)",
     ],
   },
   {
@@ -44,7 +42,6 @@ const plans = [
       "Mobile-responsive redesign",
       "Modern visual overhaul",
       "Performance improvements",
-      "Post-launch support (10 days)",
     ],
   },
 ];
