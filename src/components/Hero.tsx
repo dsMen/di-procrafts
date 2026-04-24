@@ -36,7 +36,7 @@ export default function Hero() {
             href="#book"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-700 to-purple-500 text-white font-semibold font-[family-name:var(--font-space)] px-7 py-3.5 rounded-xl shadow-[0_0_28px_rgba(168,85,247,0.4)] hover:shadow-[0_0_44px_rgba(168,85,247,0.6)] hover:-translate-y-0.5 transition-all duration-200"
           >
-            Book a Free Call →
+            Book a Free Call
           </a>
           <a
             href="#pricing"

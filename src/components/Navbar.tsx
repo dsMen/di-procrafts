@@ -52,7 +52,7 @@ export default function Navbar() {
             href="#book"
             className="hidden md:inline-flex items-center gap-2 bg-gradient-to-r from-purple-700 to-purple-500 text-white text-sm font-semibold font-[family-name:var(--font-space)] px-5 py-2.5 rounded-xl shadow-[0_0_24px_rgba(168,85,247,0.35)] hover:shadow-[0_0_40px_rgba(168,85,247,0.55)] hover:-translate-y-0.5 transition-all duration-200"
           >
-            Book a Call →
+            Book a Call
           </a>
 
           {/* Hamburger */}
@@ -96,7 +96,7 @@ export default function Navbar() {
           onClick={() => setOpen(false)}
           className="mt-4 inline-flex items-center gap-2 bg-gradient-to-r from-purple-700 to-purple-500 text-white text-base font-semibold font-[family-name:var(--font-space)] px-8 py-3.5 rounded-xl shadow-[0_0_24px_rgba(168,85,247,0.35)]"
         >
-          Book a Call →
+          Book a Call
         </a>
       </div>
     </>
