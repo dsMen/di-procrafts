@@ -5,7 +5,7 @@ const plans = [
     icon: "code",
     tech: "HTML / CSS / JS",
     sub: "Static or hand-coded websites",
-    price: "€100",
+    price: "$100",
     note: "Fixed fee · One-time payment",
     featured: false,
     features: [
@@ -19,7 +19,7 @@ const plans = [
     icon: "settings",
     tech: "WordPress",
     sub: "WordPress-powered websites",
-    price: "€200",
+    price: "$250",
     note: "Fixed fee · One-time payment",
     featured: true,
     features: [
@@ -34,7 +34,7 @@ const plans = [
     icon: "folder_open",
     tech: "Open-Source CMS",
     sub: "Joomla, Drupal, PrestaShop & others",
-    price: "€150",
+    price: "$200",
     note: "Fixed fee · One-time payment",
     featured: false,
     features: [
