@@ -49,7 +49,7 @@ export default function Hero() {
         {/* Stats */}
         <div className="flex flex-wrap gap-10">
           {[
-            { value: "€100", label: "Starting price" },
+            { value: "$100", label: "Starting price" },
             { value: "100%", label: "Fixed-fee projects" },
             { value: "Any CMS", label: "We handle all stacks" },
           ].map((s) => (
